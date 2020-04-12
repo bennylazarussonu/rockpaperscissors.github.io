@@ -1,1 +1,20 @@
 # rockpaperscissors.github.io
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benny</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Rock, Paper, Scissors</h2>
+  <div class="flex-box-rps" id="flex-box-rps-div">
+    <img id="rock" src="https://lh3.googleusercontent.com/proxy/cycGPCfNZj3XwqbvsarCwDLo7s0nDcLyr2gWfMFSLkyhLJpG3TtrM5npmc8RFJgG0Vt7eTqLTsTIvXWL6BButxf9" height="150" width="150" onclick="rpsGame(this)">
+    <img id="paper" src="https://clipartart.com/images/cartoon-paper-clipart.png" height="150" width="150" onclick="rpsGame(this)">
+    <img id="scissors" src="https://clip.cookdiary.net/sites/default/files/wallpaper/peace-symbol-clipart/199627/peace-symbol-clipart-animated-199627-9941757.gif" height="150" width="150" onclick="rpsGame(this)">
+  </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
